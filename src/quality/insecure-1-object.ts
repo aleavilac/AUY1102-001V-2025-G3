@@ -1,11 +1,12 @@
 const express = require('express');
+import { Request, Response } from 'express';
 const bodyParser = require('body-parser');
 const pug = require('pug');
 
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.post('/', (req: Request, res: Response) => {
 app.post('/', (req, res) => {
   const input = req.body.username;
   const template = `
