@@ -5,6 +5,8 @@ const jestConfig = {
   displayName: 'pkg-value-object',
   clearMocks: true,
   testEnvironment: 'node',
+  setupFiles: ['<rootDir>/jest.setup.js'],
+
   transform: {
     '^.+\\.(t|j)sx?$': '@swc/jest',
   },
@@ -23,3 +25,4 @@ const jestConfig = {
 };
 
 module.exports = jestConfig;
+
