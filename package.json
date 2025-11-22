@@ -1,5 +1,5 @@
 {
-  "name": "@aleavilac/auy1102-001v-2025-g3",
+  "name": "aleavilac/auy1102-001v-2025-g3",
   "repository": {
     "type": "git",
     "url": "https://github.com/aleavilac/AUY1102-001V-2025-G3.git"
@@ -124,4 +124,5 @@
     "cosmiconfig": "^6.0.0"
   }
 }
+
 
